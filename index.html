@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0a2024" />
+  <meta name="description" content="الماس رستورانت و مهمان‌خانه — بهترین غذاهای افغانی و اطاق‌های مجهز فامیلی و انفرادی در ۹ منزل" />
+  <link rel="icon" href="data:," />
+  <link rel="preload" href="assets/fonts/vazirmatn-arabic.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+  <title>الماس رستورانت و مهمان‌خانه</title>
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap">
+      <p data-cfg-tagline>میزبان مطمئن شما…</p>
+      <p><a data-cfg-phone-link href="tel:+93770700511"><span data-cfg-phone-display>+93 77 070 0511</span></a></p>
+    </div>
+  </div>
+
+  <header>
+    <nav class="nav wrap" aria-label="راهنمای صفحه">
+      <a class="brand" href="#top" aria-label="صفحه نخست">
+        <strong data-cfg-business>الماس رستورانت و مهمان‌خانه</strong>
+        <span>ALMAS</span>
+      </a>
+      <div class="navlinks" id="navlinks">
+        <a href="#menu">منیو رستورانت</a>
+        <a href="#rooms">اطاق‌ها</a>
+        <a href="#booking">ریزرف</a>
+        <a href="#location">تماس و آدرس</a>
+        <button class="nav-cta" type="button" data-book>ریزرف اطاق</button>
+      </div>
+      <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navlinks" aria-label="باز کردن فهرست">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title" style="padding:0">
+      <div class="wrap hero-content">
+        <div class="eyebrow">رستورانت و مهمان‌خانه</div>
+        <h1 id="hero-title" data-cfg-hero-title>جایی برای آسودن، با پذیرایی شایسته</h1>
+        <p class="hero-copy" data-cfg-hero-copy></p>
+        <div class="hero-actions">
+          <button class="btn btn-gold" type="button" data-book>ریزرف سریع اطاق</button>
+          <a class="btn btn-outline" href="#menu">دیدن منیو رستورانت</a>
+        </div>
+        <div class="hero-trust" aria-label="مزیت‌ها">
+          <div class="trust-item"><div><strong>غذاهای اصیل افغانی</strong><small>۱۲ قلم منیوی واقعی</small></div></div>
+          <div class="trust-item"><div><strong>۹ منزل مهمان‌خانه</strong><small>فامیلی و مردانه/انفرادی</small></div></div>
+          <div class="trust-item"><div><strong>ریزرف در واتساپ</strong><small dir="ltr"><span data-cfg-phone-display>+93 77 070 0511</span></small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-sec" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">رستورانت</div>
+            <h2 id="menu-title">منیوی غذاهای افغانی</h2>
+          </div>
+          <p>هر غذا را انتخاب کنید و مستقیم با یک کلیک در واتساپ سفارش بدهید.</p>
+        </div>
+        <div class="menu-tools">
+          <div class="search-box">
+            <label for="searchInput" class="hint" style="align-self:center">جستجو</label>
+            <input id="searchInput" type="search" autocomplete="off" aria-label="جستجو در منیو" />
+          </div>
+          <div class="filters" id="filters" role="group" aria-label="فلتر کتگوری غذا"></div>
+        </div>
+        <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="experience" aria-labelledby="exp-title">
+      <div class="experience-photo" id="expPhoto" role="img" aria-label="فضای رستورانت الماس"></div>
+      <div class="experience-copy">
+        <div class="eyebrow">فراتر از یک اتاق</div>
+        <h2 id="exp-title">همه‌چیز برای یک اقامت بی‌دغدغه</h2>
+        <p>غذاهای اصیل افغانی، محیط آرام، پذیرش پاسخ‌گو و اطاق‌های منظم در ۹ منزل — تجربه خوب مهمان از لحظه ورود آغاز می‌شود.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#menu">دیدن منیو</a>
+          <button class="btn btn-outline" type="button" data-book>ریزرف اطاق</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="rooms" id="rooms" aria-labelledby="rooms-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">مهمان‌خانه</div>
+            <h2 id="rooms-title">اطاق‌های فامیلی و مردانه/انفرادی در ۹ منزل</h2>
+          </div>
+          <p>نرخ شفاف فی شبانه‌روز. برای ریزرف هر اطاق، دکمه واتساپ همان کارت را بزنید.</p>
+        </div>
+        <div class="rate-note" aria-label="نرخ‌ها">
+          <span class="rate-pill">۲۰۰ افغانی فی شبانه‌روز</span>
+          <span class="rate-pill">۳۰۰ افغانی فی شبانه‌روز</span>
+          <span class="rate-pill">۵۰۰ افغانی فی شبانه‌روز</span>
+          <span class="rate-pill">۶۰۰ افغانی فی شبانه‌روز</span>
+          <span class="rate-pill">۷۰۰ افغانی فی شبانه‌روز</span>
+          <span class="rate-pill">۸۰۰ افغانی فی شبانه‌روز</span>
+          <span class="rate-pill">۱۰۰۰ افغانی فی شبانه‌روز</span>
+        </div>
+        <p class="hint" id="floorsNote"></p>
+        <div class="room-grid" id="roomGrid"></div>
+      </div>
+    </section>
+
+    <section class="booking" id="booking" aria-labelledby="booking-title">
+      <div class="wrap booking-shell">
+        <div class="booking-intro">
+          <div class="eyebrow">درخواست ریزرف</div>
+          <h2 id="booking-title">فرم ریزرف و سفارش</h2>
+          <p>مشخصات را وارد کنید؛ با زدن دکمه زیر، پیام آماده در واتساپ باز می‌شود.</p>
+          <div class="contact-line"><span>واتساپ: </span><strong dir="ltr"><span data-cfg-phone-display>+93 77 070 0511</span></strong></div>
+          <div class="contact-line"><span>آدرس: </span><span data-cfg-address></span></div>
+          <div class="contact-line"><span>ساعات: </span><span data-cfg-hours></span></div>
+        </div>
+        <form class="booking-form" id="reserveForm">
+          <div class="field">
+            <label for="fullName">نام و تخلص *</label>
+            <input id="fullName" required autocomplete="name" placeholder="مثلاً احمد احمدی" />
+          </div>
+          <div class="field">
+            <label for="phone">شماره تماس *</label>
+            <input id="phone" required inputmode="tel" dir="ltr" placeholder="07xx xxx xxx" />
+          </div>
+          <div class="field">
+            <label for="reqType">نوع درخواست *</label>
+            <select id="reqType" required></select>
+          </div>
+          <div class="field">
+            <label for="roomKind">نوع اطاق *</label>
+            <select id="roomKind" required></select>
+          </div>
+          <div class="field">
+            <label for="persons">تعداد نفر *</label>
+            <select id="persons" required>
+              <option value="">انتخاب کنید</option>
+              <option>۱ نفر</option><option>۲ نفر</option><option>۳ نفر</option>
+              <option>۴ نفر</option><option>۵ نفر یا بیشتر</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="nights">تعداد شب *</label>
+            <select id="nights" required>
+              <option value="">انتخاب کنید</option>
+              <option>۱ شب</option><option>۲ شب</option><option>۳ شب</option>
+              <option>۴ شب</option><option>۵ شب یا بیشتر</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="checkin">تاریخ ورود *</label>
+            <input id="checkin" type="date" required />
+          </div>
+          <div class="field full">
+            <label for="notes">توضیحات</label>
+            <textarea id="notes" placeholder="مثلاً اطاق منزل پایین، غذای خاص، وقت رسیدن…"></textarea>
+          </div>
+          <div class="form-actions">
+            <button class="btn btn-wa" type="submit">ارسال درخواست در واتساپ</button>
+            <small>قبل از ارسال، متن پیام را می‌بینید.</small>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="location" id="location" aria-labelledby="loc-title">
+      <div class="wrap location-grid">
+        <div class="location-card">
+          <div>
+            <div style="font-size:40px" aria-hidden="true">📍</div>
+            <p><strong data-cfg-business></strong></p>
+            <p data-cfg-address></p>
+            <p class="hint" data-cfg-landmark></p>
+          </div>
+        </div>
+        <div>
+          <div class="eyebrow" style="color:var(--gold)">تماس و دسترسی</div>
+          <h2 id="loc-title">در تماس باشید</h2>
+          <div class="detail"><strong>واتساپ</strong><span dir="ltr" data-cfg-phone-display></span></div>
+          <div class="detail"><strong>آدرس</strong><span data-cfg-address></span></div>
+          <div class="detail"><strong>ساعات</strong><span data-cfg-hours></span></div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:22px">
+            <button class="btn btn-wa" type="button" data-book>درخواست ریزرف</button>
+            <a class="btn btn-light" data-cfg-phone-link href="tel:+93770700511">تماس مستقیم</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong data-cfg-business>الماس رستورانت و مهمان‌خانه</strong><br /><span data-cfg-tagline></span></p>
+      <p>واتساپ: <span dir="ltr" data-cfg-phone-display></span></p>
+    </div>
+  </footer>
+
+  <button class="floating-wa" type="button" data-book aria-label="درخواست ریزرف در واتساپ">✆</button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

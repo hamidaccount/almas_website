@@ -1,0 +1,38 @@
+/* Local Persian fonts — bundled, no CDN needed (offline-friendly).
+   Vazirmatn = body/UI (space-5.html benchmark).
+   Noto Naskh Arabic = headings serif (space-5.html used "Noto Serif Arabic";
+   Google has no such family — "Noto Naskh Arabic" is the matching serif). */
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal; font-weight: 400 700; font-display: swap;
+  src: url('vazirmatn-arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF,
+    U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FEFC;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal; font-weight: 400 700; font-display: swap;
+  src: url('vazirmatn-latinext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF,
+    U+1D00-1DBF, U+1E00-1E9F, U+20A0-20AB, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal; font-weight: 400 700; font-display: swap;
+  src: url('vazirmatn-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2122, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  font-style: normal; font-weight: 600 700; font-display: swap;
+  src: url('naskh-arabic.woff2') format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF,
+    U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FEFC;
+}
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  font-style: normal; font-weight: 600 700; font-display: swap;
+  src: url('naskh-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+2000-206F, U+2122, U+FEFF, U+FFFD;
+}
